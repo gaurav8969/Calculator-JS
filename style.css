@@ -1,0 +1,113 @@
+body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#calc{
+    border-radius: 20px;
+    background-color:rgb(101, 101, 155);
+    border-left:8px solid lavender;
+    border-top:4px solid lavender;
+    border-right: 8px solid rgb(34, 34, 72);
+    border-bottom: 10px solid rgb(34, 34, 72);
+    width:345px;
+    height:550px;
+}
+
+#buttons{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content:center;
+}
+
+.lineBreak{
+    width:100%;
+}
+
+#top-row{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+}
+
+#top-row div{
+    border-radius:20px;
+}
+
+#rows{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.released{
+    border-top: 2.5px solid lavender;
+    border-left: 5px solid lavender;
+    border-bottom: 7px solid rgb(34, 34, 72);
+    border-right: 5px solid rgb(34, 34, 72);
+}
+
+.pressed{
+    border-bottom: 2.5px solid lavender;
+    border-right: 5px solid lavender;
+    border-top: 7px solid rgb(34, 34, 72);
+    border-left: 5px solid rgb(34, 34, 72);
+}
+
+.btns{
+    width:53px;
+    height:65px;
+    margin:4px 12px;
+    display:flex;
+    font-weight:700;
+    color:white;
+    background-color: rgb(76, 76, 122);
+    border-radius:20px;
+    justify-content:center;
+    align-items:center;
+}
+
+.btns:hover{
+    background-color: rgb(66, 66, 110);
+}
+
+#clear{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    color: white;
+    font-size:20px;
+    font-weight:bold;
+    background-color: rgb(218, 88, 73);
+    width:135px;
+    height:57px;
+}
+
+#display{
+    display:flex;
+    justify-content: flex-end;
+    width:300px;
+    height:75px;
+    background-color: rgb(144, 144, 144);
+    font-weight:bold;
+    font-size:38px;
+    margin: 16px 23px;
+    border-radius:20px;
+    border-top: 7px solid rgb(98, 98, 98);
+    border-left: 5px solid rgb(98, 98, 98);
+    border-right: 5px solid rgb(183, 183, 183);
+    border-bottom: 2.5px solid rgb(183, 183, 183);
+}
+
+#displayText{
+    margin-top: 21px;
+}
+
+#equals{
+    width:130px;
+    background-color: rgb(41, 41, 78);
+}
